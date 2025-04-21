@@ -1,0 +1,49 @@
+.gallery-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.gallery-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 48%;
+    }
+}
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+/*动漫图片*/
+.image-container {
+    max-width: 600px; /* 可根据需求调整最大宽度 */
+    margin: 0 auto; /* 容器居中 */
+}
+.image-item {
+    width: 100%;
+    margin-bottom: 10px; /* 图片间间距 */
+}
+.image-item img {
+    width: 100%; /* 图片宽度占满父容器 */
+    height: auto; /* 保持图片比例 */
+}

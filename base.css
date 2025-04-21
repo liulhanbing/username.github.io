@@ -1,0 +1,5 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details
+a:link, a:visited { color: #5e5e5e; text-decoration: none; }
+ul, ol { list-style: none; padding: 0 }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; font-family: "Microsoft YaHei"; }
+a{text-decoration: none;}

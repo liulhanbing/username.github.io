@@ -1,0 +1,155 @@
+/*文本格式*/
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #e5caca;
+}
+
+/* 热门推荐开始*/
+.title{
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: rgb(223, 40, 40);
+}
+.hot{
+    width: 100%;
+    height: 500px;
+    background-color: cornsilk;
+    margin-bottom: 40px;
+}
+.wrap{
+    width: 1240px;
+    margin: 0 auto;
+}
+.hot-item{
+    float: left;
+    width: 240px;
+    padding-top: 45px;
+    text-align: center;
+}
+.hot-item img{
+    width: 120px;
+}
+.hot-name{
+    color: rgb(10, 35, 27);
+    font-size: 80px;
+    line-height: 31px;
+}
+.hot-desc{
+    color: rgb(15, 62, 62);
+    font-size: 70px;
+    line-height: 21px;
+}
+/* 热门推荐结束 */
+
+/* 分类样式开始 */
+.title{
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: rgb(227, 40, 40);
+}
+.ul{
+     list-style: none;
+}
+.body{
+    height:100% ;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height:50px ;
+    background: rgb(201, 103, 103);
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 1px;
+}
+.footer{
+    height: 40px;
+    background: rgb(206, 148, 148);
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+     margin-top: 1px;
+}
+.section{
+    flex: 1;
+    display: flex;
+    overflow: auto;
+}
+.section ul{
+    width: 280px;
+    overflow: auto;
+}
+.section ul li{
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 27px;
+    background: #d85f5f;
+}
+.section li:hover{
+    background: white;
+     color: #e96062;
+}
+section>div{
+    flex: 1;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.section.content>div{
+    height: 203px;
+    width: 33.33%;
+}
+.content{
+    height: 203px;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #e96062;
+    align-content: flex-start;
+}
+section.content >div{
+    height: 203px;
+    width: 33.3%;
+    background: red;
+    text-align: center;
+}
+.content-top-item{
+    height: 103px;
+    width: 33.3333%;
+    background-color: rgb(207, 119, 119);
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+}
+.content-top-item:first-child{
+    margin-right: 0;
+}
+/* 分类样式结束 */
+
+/*文本*/
+.wenjiaohui{
+    width: 100%;
+    height: 400px;
+    background-color: cornsilk;
+    margin-bottom: 40px;
+}
+.righttitle{
+    font-size: 30px;
+    text-align: center;
+}
+.neirong{
+    font-size: 20px;
+    text-align:start
+}
